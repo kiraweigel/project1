@@ -1,4 +1,4 @@
 a = 'hello'
 b = 'world'
-print (a)
-print (b)
+print (a, b)
+print ('Версия 2')
