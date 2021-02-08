@@ -31,7 +31,7 @@ str1 = """
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 """
-str = """
+str2 = """
                                        $$$$$$$$
                                 $$$$$$$$$$$$$$$$$$
                              $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -64,3 +64,29 @@ str = """
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 """
+import os
+import time
+os.system('cls')
+print(str1, end='\r')
+time.sleep(1)
+os.system('cls')
+print(str2, end='\r')
+time.sleep(1)
+os.system('cls')
+print(str1, end='\r')
+time.sleep(1)
+os.system('cls')
+print(str2, end='\r')
+time.sleep(1)
+os.system('cls')
+print(str1, end='\r')
+time.sleep(1)
+os.system('cls')
+print(str2, end='\r')
+time.sleep(1)
+os.system('cls')
+print(str1, end='\r')
+time.sleep(1)
+os.system('cls')
+print(str2, end='\r')
+time.sleep(1)
