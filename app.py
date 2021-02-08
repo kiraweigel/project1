@@ -1,4 +1,7 @@
-str1 = """
+import os
+import time
+
+a = """
                                        $$$$$$$$
                                 $$$$$$$$$$$$$$$$$$
                              $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -31,7 +34,7 @@ str1 = """
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 """
-str2 = """
+b = """
                                        $$$$$$$$
                                 $$$$$$$$$$$$$$$$$$
                              $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
@@ -64,29 +67,35 @@ str2 = """
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 """
-import os
-import time
-os.system('cls')
-print(str1, end='\r')
+
+
+print(a, end='\r')
 time.sleep(1)
 os.system('cls')
-print(str2, end='\r')
+
+print(b, end='\r')
 time.sleep(1)
 os.system('cls')
-print(str1, end='\r')
+
+print(a, end='\r')
 time.sleep(1)
 os.system('cls')
-print(str2, end='\r')
+
+print(b, end='\r')
 time.sleep(1)
 os.system('cls')
-print(str1, end='\r')
+
+print(a, end='\r')
 time.sleep(1)
 os.system('cls')
-print(str2, end='\r')
+
+print(b, end='\r')
 time.sleep(1)
 os.system('cls')
-print(str1, end='\r')
+
+print(a, end='\r')
 time.sleep(1)
 os.system('cls')
-print(str2, end='\r')
+
+print(b, end='\r')
 time.sleep(1)
